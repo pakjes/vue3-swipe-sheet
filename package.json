@@ -1,7 +1,7 @@
 {
   "name": "vue3-swipe-sheet",
   "private": false,
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "files": ["dist", "src/components/"],
   "repository": {
