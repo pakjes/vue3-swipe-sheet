@@ -12,6 +12,10 @@ npm i vue3-swipe-sheet
 
 ## Demo
 
+https://stackblitz.com/edit/vitejs-vite-gi9un9
+&
+https://github.com/pakjes/vue3-swipe-sheet/tree/main/demo/swipe-sheet-demo
+
 ## Usage
 
 These are the imports you need, check out the demo for all the props and emits.
