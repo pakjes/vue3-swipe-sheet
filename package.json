@@ -1,0 +1,54 @@
+{
+  "name": "vue3-swipe-sheet",
+  "private": false,
+  "version": "1.0.5",
+  "type": "module",
+  "files": ["dist", "src/components/"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pakjes/vue3-swipe-sheet.git"
+  },
+  "keywords": [
+    "draggable",
+    "swipe",
+    "vue3",
+    "vue",
+    "vuejs"
+  ],
+  "main": "./dist/vue3-swipe-sheet.umd.cjs",
+  "module": "./dist/vue3-swipe-sheet.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-swipe-sheet.js",
+      "require": "./dist/vue3-swipe-sheet.umd.cjs"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+
+
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.9.0",
+    "vue": "^3.4.21"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.21",
+    "@vueuse/core": "^10.9.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "path": "^0.12.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.9.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
